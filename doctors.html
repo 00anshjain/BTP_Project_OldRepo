@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doctors</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
@@ -18,110 +21,104 @@
 
     <!-- header section starts  -->
 
-    <header class="header">
+    <div id="nav-placeholder">
 
-        <a href="#" class="logo"> <i class="fas fa-heartbeat"></i> medcare. </a>
+    </div>
 
-        <nav class="navbar">
-            <a href="#home">home</a>
-            <a href="services.html">services</a>
-            <a href="about.html">about</a>
-            <a href="doctors.html">doctors</a>
-            <a href="book.html">book</a>
-            <a href="review.html">review</a>
-            <a href="blogs.html">blogs</a>
-            <button class="btn" style="margin-left: 5px;">Login</button>
-        </nav>
-
-        <div id="menu-btn" class="fas fa-bars"></div>
-
-    </header>
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("nav.html");
+        });
+    </script>
 
     <!-- header section ends -->
 
+
     <!-- doctors section starts  -->
+    <div>
 
-    <section class="doctors" id="doctors">
+        <section class="doctors" id="doctors">
 
-        <h1 class="heading"> our <span>doctors</span> </h1>
+            <h1 class="heading"> our <span>doctors</span> </h1>
 
-        <div class="box-container">
+            <div class="box-container">
 
-            <div class="box">
-                <img src="image/doc-1.jpg" alt="">
-                <h3>john deo</h3>
-                <span>expert doctor</span>
-                <div class="share">
-                    <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-                    <a href="#" class="fab fa-linkedin"></a>
+                <div class="box">
+                    <img src="image/doc-1.jpg" alt="">
+                    <h3>john deo</h3>
+                    <span>expert doctor</span>
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                        <a href="#" class="fab fa-linkedin"></a>
+                    </div>
                 </div>
+
+                <div class="box">
+                    <img src="image/doc-2.jpg" alt="">
+                    <h3>john deo</h3>
+                    <span>expert doctor</span>
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                        <a href="#" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="image/doc-3.jpg" alt="">
+                    <h3>john deo</h3>
+                    <span>expert doctor</span>
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                        <a href="#" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="image/doc-4.jpg" alt="">
+                    <h3>john deo</h3>
+                    <span>expert doctor</span>
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                        <a href="#" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="image/doc-5.jpg" alt="">
+                    <h3>john deo</h3>
+                    <span>expert doctor</span>
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                        <a href="#" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="image/doc-6.jpg" alt="">
+                    <h3>john deo</h3>
+                    <span>expert doctor</span>
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                        <a href="#" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+
             </div>
 
-            <div class="box">
-                <img src="image/doc-2.jpg" alt="">
-                <h3>john deo</h3>
-                <span>expert doctor</span>
-                <div class="share">
-                    <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-                    <a href="#" class="fab fa-linkedin"></a>
-                </div>
-            </div>
-
-            <div class="box">
-                <img src="image/doc-3.jpg" alt="">
-                <h3>john deo</h3>
-                <span>expert doctor</span>
-                <div class="share">
-                    <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-                    <a href="#" class="fab fa-linkedin"></a>
-                </div>
-            </div>
-
-            <div class="box">
-                <img src="image/doc-4.jpg" alt="">
-                <h3>john deo</h3>
-                <span>expert doctor</span>
-                <div class="share">
-                    <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-                    <a href="#" class="fab fa-linkedin"></a>
-                </div>
-            </div>
-
-            <div class="box">
-                <img src="image/doc-5.jpg" alt="">
-                <h3>john deo</h3>
-                <span>expert doctor</span>
-                <div class="share">
-                    <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-                    <a href="#" class="fab fa-linkedin"></a>
-                </div>
-            </div>
-
-            <div class="box">
-                <img src="image/doc-6.jpg" alt="">
-                <h3>john deo</h3>
-                <span>expert doctor</span>
-                <div class="share">
-                    <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-                    <a href="#" class="fab fa-linkedin"></a>
-                </div>
-            </div>
-
-        </div>
-
-    </section>
+        </section>
+    </div>
 
     <!-- doctors section ends -->
 </body>
